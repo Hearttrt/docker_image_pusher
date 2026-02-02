@@ -17,4 +17,5 @@ jeessy/ddns-go
 haishanh/yacd
 # qinglong
 whyour/qinglong
-alam00000/bentopdf
+
+ghcr.io/alam00000/bentopdf
