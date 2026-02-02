@@ -26,3 +26,8 @@ ghcr.io/alam00000/bentopdf
 
 # docker compose Maker
 ghcr.io/ajnart/dcm
+
+# scanopy 
+ghcr.io/scanopy/scanopy/daemon
+postgres:17-alpine
+ghcr.io/scanopy/scanopy/server
