@@ -35,3 +35,6 @@ ghcr.io/scanopy/scanopy/server
 # plexwrap
 ghcr.io/hearttrt/plexwrap_action/plexwrap-frontend:latest
 ghcr.io/hearttrt/plexwrap_action/plexwrap-backend:latest
+
+xhongc/music_tag_web:latest
+linuxserver/lidarr
