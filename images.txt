@@ -36,5 +36,9 @@ ghcr.io/scanopy/scanopy/server
 ghcr.io/hearttrt/plexwrap_action/plexwrap-frontend:latest
 ghcr.io/hearttrt/plexwrap_action/plexwrap-backend:latest
 
+#musicauto
 xhongc/music_tag_web:latest
 linuxserver/lidarr
+ghcr.io/mrusse/soularr:main
+slskd/slskd
+deluan/navidrome
