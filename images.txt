@@ -15,8 +15,8 @@ linuxserver/transmission:4.0.6-r4-ls298
 easychen/cookiecloud
 tautulli/tautulli
 kometateam/kometa
-
 neilpang/acme.sh
+danrahn/intro-editor-for-plex
 
 # ddns-go
 jeessy/ddns-go
