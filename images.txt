@@ -4,7 +4,8 @@
 # 支持指定架构
 ## --platform=linux/arm64 xiaoyaliu/alist
 # m auto
-jxxghp/moviepilot-v2
+jxxghp/moviepilot-v2:latest
+jxxghp/moviepilot-v2:2.9.2
 linuxserver/plex
 linuxserver/qbittorrent
 linuxserver/transmission
