@@ -7,10 +7,14 @@
 jxxghp/moviepilot-v2:latest
 jxxghp/moviepilot-v2:2.9.2
 linuxserver/plex
+linuxserver/plex:1.42.2.10156-f737b826c-ls288
 linuxserver/qbittorrent
+linuxserver/qbittorrent:5.1.0-r0-ls399
 linuxserver/transmission
+linuxserver/transmission:4.0.6-r4-ls298
 easychen/cookiecloud
 tautulli/tautulli
+
 neilpang/acme.sh
 
 # ddns-go
