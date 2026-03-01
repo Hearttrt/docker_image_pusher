@@ -48,3 +48,4 @@ linuxserver/lidarr
 ghcr.io/mrusse/soularr:main
 slskd/slskd
 deluan/navidrome
+jjdenhertog/spotify-to-plex
