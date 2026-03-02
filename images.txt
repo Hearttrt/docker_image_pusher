@@ -19,7 +19,8 @@ neilpang/acme.sh
 danrahn/intro-editor-for-plex
 
 # webhook 相关
-finab/bark-server
+ghcr.io/finb/bark-server
+
 
 # ddns-go
 jeessy/ddns-go
