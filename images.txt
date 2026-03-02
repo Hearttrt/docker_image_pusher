@@ -18,6 +18,9 @@ kometateam/kometa
 neilpang/acme.sh
 danrahn/intro-editor-for-plex
 
+# webhook 相关
+finab/bark-server
+
 # ddns-go
 jeessy/ddns-go
 
