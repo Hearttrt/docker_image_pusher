@@ -20,9 +20,12 @@ kometateam/kometa
 neilpang/acme.sh
 danrahn/intro-editor-for-plex
 
+# fuse
+rclone/rclone
+cloudnas/clouddrive2
+
 # webhook 相关
 ghcr.io/finb/bark-server
-
 
 # ddns-go
 jeessy/ddns-go
