@@ -5,7 +5,9 @@
 ## --platform=linux/arm64 xiaoyaliu/alist
 # m auto
 jxxghp/moviepilot-v2:latest
+jxxghp/moviepilot-v2:2.4.0
 jxxghp/moviepilot-v2:2.9.2
+jxxghp/moviepilot-v2:2.9.13
 linuxserver/plex
 linuxserver/plex:1.42.2.10156-f737b826c-ls288
 linuxserver/qbittorrent
