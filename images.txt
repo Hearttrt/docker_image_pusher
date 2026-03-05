@@ -61,3 +61,6 @@ jjdenhertog/spotify-to-plex
 
 # couchdb
 couchdb:latest
+
+# test tmp
+haierkeys/fast-note-sync-service
