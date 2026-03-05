@@ -160,7 +160,7 @@ jobs:
     - name: Send Bark Notification
       if: always() # 确保无论成功失败都发送通知
       run: |
-        curl -X "POST" "${{ secrets.WEBHOOK_URL }}/${{ secrets.BARK_KEY }}" \
+        curl -X "POST" "${{ secrets.WEBHOOK_URL }}" \
              -H 'Content-Type: application/json; charset=utf-8' \
              -d "{
           \"title\": \"GitHub Actions: ${{ github.workflow }}\",
