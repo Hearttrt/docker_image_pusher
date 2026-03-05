@@ -157,14 +157,17 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
-    - name: Send Webhook Notification
-      if: always() # 确保成功或失败都会发送
+    - name: Send Bark Notification
+      if: always() # 确保无论成功失败都发送通知
       run: |
-        curl -X POST "${{ secrets.WEBHOOK_URL }}" \
-        -H "Content-Type: application/json" \
-        -d '{
-          "msg_type": "text",
-          "content": {
-            "text": "GitHub Action 运行结束\n任务名称: ${{ github.workflow }}\n状态: ${{ job.status }}\n仓库: ${{ github.repository }}\n运行编号: ${{ github.run_id }}"
-          }
-        }'
+        curl -X "POST" "${{ secrets.WEBHOOK_URL }}/${{ secrets.BARK_KEY }}" \
+             -H 'Content-Type: application/json; charset=utf-8' \
+             -d "{
+          \"title\": \"GitHub Actions: ${{ github.workflow }}\",
+          \"body\": \"状态: ${{ job.status }}\n仓库: ${{ github.repository }}\n提交信息: ${{ github.event.head_commit.message }}\",
+          \"badge\": 1,
+          \"sound\": \"minuet\",
+          \"icon\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
+          \"group\": \"GitHub_Automation\",
+          \"url\": \"https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
+        }"
