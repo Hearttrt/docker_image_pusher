@@ -160,15 +160,21 @@ jobs:
     - name: Send Bark Notification
       if: always() # 确保无论成功失败都发送通知
       run: |
-        curl -X "POST" "${{ secrets.WEBHOOK_URL }}" \
-             -H 'Content-Type: application/json; charset=utf-8' \
-             -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1' \
-             -d "{
-          \"title\": \"GitHub Actions: ${{ github.workflow }}\",
-          \"body\": \"状态: ${{ job.status }}\n仓库: ${{ github.repository }}\n提交信息: ${{ github.event.head_commit.message }}\",
-          \"badge\": 1,
-          \"sound\": \"minuet\",
-          \"icon\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
-          \"group\": \"GitHub_Automation\",
-          \"url\": \"https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
-        }"
+        # 对标题和内容进行简单的 URL 编码处理（可选）
+        TITLE="GitHub_Actions_Docker"
+        BODY="Status_${{ job.status }}_Repo_${{ github.repository }}"
+        
+        curl -L "${{ secrets.WEBHOOK_URL }}/$TITLE/$BODY?group=GitHub_Actions_Dockerpush&icon=https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+      # run: |
+      #   curl -X "POST" "${{ secrets.WEBHOOK_URL }}" \
+      #        -H 'Content-Type: application/json; charset=utf-8' \
+      #        -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1' \
+      #        -d "{
+      #     \"title\": \"GitHub Actions: ${{ github.workflow }}\",
+      #     \"body\": \"状态: ${{ job.status }}\n仓库: ${{ github.repository }}\n提交信息: ${{ github.event.head_commit.message }}\",
+      #     \"badge\": 1,
+      #     \"sound\": \"minuet\",
+      #     \"icon\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\",
+      #     \"group\": \"GitHub_Automation\",
+      #     \"url\": \"https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
+      #   }"
