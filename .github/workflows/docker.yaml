@@ -162,6 +162,7 @@ jobs:
       run: |
         curl -X "POST" "${{ secrets.WEBHOOK_URL }}" \
              -H 'Content-Type: application/json; charset=utf-8' \
+             -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1' \
              -d "{
           \"title\": \"GitHub Actions: ${{ github.workflow }}\",
           \"body\": \"状态: ${{ job.status }}\n仓库: ${{ github.repository }}\n提交信息: ${{ github.event.head_commit.message }}\",
