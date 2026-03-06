@@ -62,5 +62,9 @@ jjdenhertog/spotify-to-plex
 # couchdb
 couchdb:latest
 
+# openclaw
+ghcr.io/openclaw/openclaw
+
 # test tmp
 haierkeys/fast-note-sync-service
+
