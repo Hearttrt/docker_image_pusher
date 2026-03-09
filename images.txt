@@ -1,3 +1,6 @@
+# WhatsApp api
+ghcr.io/aldinokemal/go-whatsapp-web-multidevice
+
 # auto_symlink
 shenxianmq/auto_symlink
 # 支持私库
