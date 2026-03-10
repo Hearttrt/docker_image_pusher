@@ -1,5 +1,5 @@
 # WhatsApp api
-ghcr.io/aldinokemal/go-whatsapp-web-multidevice
+ghcr.io/hearttrt/whatsapp-mcp-docker
 
 # auto_symlink
 shenxianmq/auto_symlink
