@@ -1,3 +1,5 @@
+# colorcraft-studio
+ghcr.io/bangsmackpow/colorcraft-studio
 # WhatsApp api
 ghcr.io/hearttrt/whatsapp-mcp-docker
 
