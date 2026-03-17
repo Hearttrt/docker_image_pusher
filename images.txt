@@ -1,3 +1,5 @@
+# caddy
+caddy
 # colorcraft-studio
 ghcr.io/bangsmackpow/colorcraft-studio
 # WhatsApp api
