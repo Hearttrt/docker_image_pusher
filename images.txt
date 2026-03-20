@@ -1,8 +1,6 @@
 # caddy
 caddy
 ghcr.io/iarekylew00t/caddy-cloudflare
-ghcr.io/hearttrt/my-caddy-dockerimage:l4
-ghcr.io/hearttrt/my-caddy-dockerimage:cloudflare
 
 # colorcraft-studio
 ghcr.io/bangsmackpow/colorcraft-studio
