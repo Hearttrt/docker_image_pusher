@@ -1,3 +1,7 @@
+# opentoggl
+redis:8-alpine
+ghcr.io/correctroadh/opentoggl:latest
+
 # caddy
 caddy
 ghcr.io/iarekylew00t/caddy-cloudflare
