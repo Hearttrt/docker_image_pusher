@@ -1,3 +1,6 @@
+#memos
+ghcr.io/hearttrt/memos_nas:latest
+
 # opentoggl
 redis:8-alpine
 ghcr.io/correctroadh/opentoggl:latest
