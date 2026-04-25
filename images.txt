@@ -1,5 +1,7 @@
 #memos
 ghcr.io/hearttrt/memos_nas:latest
+neo4j:5.26.6
+qdrant/qdrant:v1.15.3
 
 # opentoggl
 redis:8-alpine
