@@ -1,3 +1,6 @@
+# hysteria2
+tobyxdd/hysteria
+
 # gogs
 gogs/gogs
 
