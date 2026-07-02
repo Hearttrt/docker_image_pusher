@@ -1,3 +1,5 @@
+lanol/filecodebox:latest
+
 cloudflare/cloudflared:latest
 nodered/node-red:latest
 # hysteria2
