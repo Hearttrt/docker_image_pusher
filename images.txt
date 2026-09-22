@@ -1,3 +1,5 @@
+ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.1
+ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.2
 ghcr.io/luqtest/big-a-chovy:v0.5.0-docker.1
 lanol/filecodebox:latest
 
