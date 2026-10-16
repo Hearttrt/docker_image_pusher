@@ -1,23 +1,24 @@
+ghcr.io/hearttrt/cnequity-docker:sha-a3da4b9
 ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.1
 ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.2
 ghcr.io/luqtest/big-a-chovy:v0.5.0-docker.1
-lanol/filecodebox:latest
+# lanol/filecodebox:latest
 
-cloudflare/cloudflared:latest
-nodered/node-red:latest
+# cloudflare/cloudflared:latest
+# nodered/node-red:latest
 # hysteria2
-tobyxdd/hysteria
+# tobyxdd/hysteria
 
 # gogs
-gogs/gogs
+# gogs/gogs
 
 #memos
 ghcr.io/hearttrt/memos_nas:latest
-neo4j:5.26.6
-qdrant/qdrant:v1.15.3
+# neo4j:5.26.6
+# qdrant/qdrant:v1.15.3
 
 # opentoggl
-redis:8-alpine
+# redis:8-alpine
 ghcr.io/correctroadh/opentoggl:latest
 
 # caddy
@@ -40,33 +41,17 @@ jxxghp/moviepilot-v2:latest
 jxxghp/moviepilot-v2:2.4.0
 jxxghp/moviepilot-v2:2.9.2
 jxxghp/moviepilot-v2:2.9.13
-linuxserver/plex
-linuxserver/plex:1.42.2.10156-f737b826c-ls288
-linuxserver/qbittorrent
-linuxserver/qbittorrent:5.1.0-r0-ls399
-linuxserver/transmission
-linuxserver/transmission:4.0.6-r4-ls298
-easychen/cookiecloud
-tautulli/tautulli
-kometateam/kometa
-neilpang/acme.sh
-danrahn/intro-editor-for-plex
-
-# fuse
-rclone/rclone
-cloudnas/clouddrive2
-
-# webhook 相关
-ghcr.io/finb/bark-server
-
-# ddns-go
-jeessy/ddns-go
-
-# yacd
-haishanh/yacd
-
-# qinglong 
-whyour/qinglong
+# linuxserver/plex
+# linuxserver/plex:1.42.2.10156-f737b826c-ls288
+# linuxserver/qbittorrent
+# linuxserver/qbittorrent:5.1.0-r0-ls399
+# linuxserver/transmission
+# linuxserver/transmission:4.0.6-r4-ls298
+# easychen/cookiecloud
+# tautulli/tautulli
+# kometateam/kometa
+# neilpang/acme.sh
+# danrahn/intro-editor-for-plex
 
 # PDF编辑器
 ghcr.io/alam00000/bentopdf
@@ -82,21 +67,4 @@ ghcr.io/scanopy/scanopy/server
 # plexwrap
 ghcr.io/hearttrt/plexwrap_action/plexwrap-frontend:latest
 ghcr.io/hearttrt/plexwrap_action/plexwrap-backend:latest
-
-#musicauto
-xhongc/music_tag_web:latest
-linuxserver/lidarr
-ghcr.io/mrusse/soularr:main
-slskd/slskd
-deluan/navidrome
-jjdenhertog/spotify-to-plex
-
-# couchdb
-couchdb:latest
-
-# openclaw
-ghcr.io/openclaw/openclaw
-
-# test tmp
-haierkeys/fast-note-sync-service
 
