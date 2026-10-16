@@ -1,4 +1,4 @@
-ghcr.io/hearttrt/cnequity-docker:sha-f826a60
+ghcr.io/hearttrt/cnequity-docker:sha-423db99
 # ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.1
 # ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.2
 #  ghcr.io/luqtest/big-a-chovy:v0.5.0-docker.1
