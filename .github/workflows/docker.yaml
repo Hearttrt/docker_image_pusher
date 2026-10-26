@@ -20,9 +20,29 @@ jobs:
     name: Pull
     runs-on: ubuntu-latest
     steps:
-    - name: Before freeing up disk space
+    - name: Free up disk space
       run: |
         echo "Before freeing up disk space"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+        
+        # 真正开始删除 GitHub Runner 预装的无用大型软件
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+        sudo rm -rf /usr/local/share/boost
+        sudo rm -rf /usr/local/graalvm
+        sudo rm -rf /usr/local/share/powershell
+        sudo rm -rf /usr/local/share/chromium
+        
+        # 清理预缓存的 Docker 镜像和 apt 缓存
+        sudo docker image prune --all --force
+        sudo docker builder prune --all --force
+        sudo apt-get clean
+        
+        echo "After freeing up disk space"
         echo "=============================================================================="
         df -hT
         echo "=============================================================================="
