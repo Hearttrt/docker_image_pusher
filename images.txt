@@ -1,3 +1,7 @@
+ghcr.io/immich-app/immich-server
+ghcr.io/immich-app/immich-machine-learning
+ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0@sha256:bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23
+
 ghcr.io/luqtest/big-a-chovy:v0.7.2
 ghcr.io/hearttrt/cnequity-docker:sha-423db99
 # ghcr.io/luqtest/big-a-chovy:v0.4.0-docker.1
